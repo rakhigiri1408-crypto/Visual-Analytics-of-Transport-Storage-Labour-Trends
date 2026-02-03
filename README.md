@@ -1,25 +1,39 @@
 # Visual-Analytics-of-Transport-Storage-Labour-Trends
 This R project explores Yorkshire’s transport &amp; storage employment (2015-2024). Using data viz like parallel coordinates, it tracks regional shifts &amp; structural patterns. Designed for clarity, it offers insights into labour evolution.
 
-### 1. Parallel Coordinates Plot
-Compares multiple variables across different regions of Yorkshire to identify structural differences.  
+# 📊 Yorkshire Labour Market Analysis (2015-2024)
+### Transport & Storage Sector Data Visualization Project
 
-![Parallel Coordinates Plot](visualisation/parallel_coordinates.png.png)
+This repository contains a deep-dive analysis of Yorkshire’s industrial evolution. Using R, I have transformed raw employment data into a suite of interconnected visualisations that reveal how the region’s workforce has shifted over the last decade.
 
-### 2. Stacked Area Chart
-Shows cumulative growth and the proportion of different sub-sectors over the 2015-2024 period.  
 
-![Stacked Area Chart](visualisation/stacked_area_chart.png.png)
+##  Project Objectives
+* **Track Patterns:** Analyzing long-term employment trends from 2015 to 2024.
+* **Regional Benchmarking:** Comparing different districts using multi-variable analysis.
+* **Visual Storytelling:** Using advanced R plots to make complex data accessible and insightful.
 
-### 3. Alluvial Diagram
-Visualizes the flow and structural changes in labor distribution between categories over time.  
+##  The Visual Gallery
+I have developed four distinct types of visualizations to capture every angle of the data:
 
-![Alluvial Diagram](visualisation/alluvial_diagram.png.png)
+* **Parallel Coordinates Plot:** A multi-dimensional view to spot regional outliers and structural differences.
+* **Stacked Area Chart:** Tracking the "volume" of work—shows how different sub-sectors grew or shrank together.
+* **Alluvial Diagram:** Mapping the "flow"—perfect for seeing how labour moved between categories over time.
+* **Radial Heatmap:** A circular intensity map that highlights employment density "hotspots" across the region.
 
-### 4. Radial Heatmap
-A circular representation showing the intensity of employment trends and seasonal/regional density.  
+##  Tech Stack
+* **Language:** R
+* **Core Libraries:** `tidyverse`, `janitor`, `GGally`, `viridis`
+* **Workflow:** Data Cleaning ➡️ Transformation ➡️ Mapping ➡️ Accessible Visualization
 
-![Radial Heatmap](visualisation/radial_heatmap.png.png)
+## 📂 Inside the Repo
+* 📁 **visualisation/**: All high-res plots (Note: Files are saved as `.png.png`).
+* 📄 **script.R**: The complete, commented code for reproducibility.
+* 📄 **README.md**: Project summary and guide.
+
+---
+**Data Ethics & Accessibility:** All plots use the `viridis` palette to ensure they are readable for everyone, including those with colour-blindness.
+
+
 
 ##  Tools & Libraries
 This analysis was performed using **R Statistical Software** with the following libraries:
